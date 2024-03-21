@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro or Not</title>
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro?</h1>
+    <p>
+        Digite seu país de origem: <input type="text" name="pais" id="pais">
+        <input type="button" value="enviar" onclick="verificar()">
+    </p>
+    <div id="res">
+
+    </div>
+    <script>
+        function verificar() {
+            var country = pais.value.toUpperCase()
+            var res = document.getElementById('res')
+            res.innerHTML = `Seu país de origem é: <strong>${country}</strong>`
+            if (country == 'BRASIL') {
+                res.innerHTML += '<p>Voce é brasileiro!</p>'
+            } else {
+                res.innerHTML += '<p>Voce é estrangeiro!</p>'
+            }
+            
+        }
+    </script>
+</body>
+</html>
