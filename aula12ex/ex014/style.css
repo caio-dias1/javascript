@@ -1,5 +1,5 @@
 body {
-    background-color: #f39c32;
+    background-color: #ca5327;
 }
 
 header {
@@ -14,6 +14,16 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+}
+
+#msg {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#foto {
+    text-align: center;
 }
 
 footer {
