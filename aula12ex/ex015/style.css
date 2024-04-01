@@ -14,17 +14,7 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
-}
-
-#info {
-    padding: 10px;
-    line-height: 2em;
-}
-
-#conteudo {
-    text-align: center;
     font-size: 1.5em;
-
 }
 
 footer {
