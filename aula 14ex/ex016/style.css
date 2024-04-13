@@ -1,0 +1,28 @@
+body {
+    background-color: brown;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 50px 5px 50px 5px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+    line-height: 2em;
+}
+
+div > input {
+    width: 65%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
