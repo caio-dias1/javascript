@@ -1,6 +1,6 @@
 function gerar () {
     let num = document.querySelector('input#num')
-    let res = document.querySelector('p#res')
+    let res = document.querySelector('select#res')
     if (num.value.length == 0) {
         window.alert('Digite um numero!')
     } else {
@@ -8,8 +8,10 @@ function gerar () {
         let t = 0
         res.innerHTML = 'Multiplicando!<br>'
         while (t <= 10) {
+            let item = document.createElement('option')
             let r = n * t
-            res.innerHTML += `${n} x ${t} = ${r} <br>`
+            item.text = `${n} x ${t} = ${r}`
+            res.appendChild(item)
             t ++ 
         }
         
