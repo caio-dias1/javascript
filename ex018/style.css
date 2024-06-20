@@ -20,8 +20,12 @@ div {
     font-size: 22px;
 }
 
-section > button, div > button {
-    font-size: 18px;
+input {
+    font-size: 20px;
+}
+
+select#lista {
+    width: 150px;
 }
 
 footer {
